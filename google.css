@@ -1,0 +1,282 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style-type: none;
+    position: relative;
+    top: -15px;
+    right: 15px;
+    height: 50px;
+    width: 170px;
+}
+div > ul{
+    float: right;
+}
+ul > li{
+    float: left;
+}
+li span{
+    background: none;
+    border: none;
+}
+.third > img{
+    width: 35px;
+    height: 35px;
+}
+.fourth > img{
+    width: 50px;
+    height: auto;
+}
+.third{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 65px;
+}
+.fourth{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+}
+
+
+.first{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    cursor: pointer
+}
+
+.first:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.second{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50px;
+    cursor: pointer
+}
+
+.second:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.google{
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    transform: translateX(-50%);
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.google span:nth-child(5) {
+    color: green;
+}
+.google span:nth-child(1){
+    color: blue;
+}
+.google span:nth-child(2){
+    color: red;
+}
+.google span:nth-child(3){
+    color: orange;
+}
+.google span:nth-child(4){
+    color: blue;
+}
+.google span:nth-child(6){
+    color: red;
+}
+.in{
+    position: absolute;
+    left: 50%;
+    top: 250px;
+    transform: translateX(-50%);
+    
+}
+.in:hover{
+    box-shadow: 1px 1px 30px -10px gray;
+    border-radius: 100px;
+}
+
+.in input {
+    padding: 20px 40px;
+    height: 10px;
+    width: 550px;
+    border-radius: 100px;
+    outline: none;
+    border:1px solid #dfe1e5;
+}
+
+.google{
+    letter-spacing: -17px;
+}
+
+.underbox {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 350px;
+}
+
+.one {
+    width: 100px;
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+}
+
+.two{
+    width: 150px;
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+}
+
+.one:hover{
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
+.two:hover{
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
+.third:hover{
+    cursor: pointer;
+}
+
+.fourth:hover{
+    cursor: pointer;
+}
+
+.country{
+    position: absolute;
+    background-color: #e9e9e9;
+    width: 100%;
+    top: 620px;
+    height: 50px;
+    float: left;
+}
+
+.korea{
+    padding: 15px 30px;
+    color: rgba(0,0,0,.54);
+}
+
+.pad{
+    position: absolute;
+    background-color: #e9e9e9;
+    width: 100%;
+    top: 670px;
+    height: 50px;
+    border-top: 1px solid rgb(199, 199, 199);
+}
+
+.left {
+    position: relative;
+    top: 15px;
+}
+
+.left span {
+    margin-left: 30px;
+}
+
+.right {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+}
+.right span {
+    margin-right: 30px;
+}
+
+.information{
+    color: rgba(0,0,0,.54);
+}
+
+.information:hover{
+    text-decoration: underline;
+    cursor: pointer;    
+}
+
+.ad{
+    color: rgba(0,0,0,.54);
+}
+
+.ad:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.v{
+    color: rgba(0,0,0,.54);
+}
+
+.v:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.serch{
+    color: rgba(0,0,0,.54);
+}
+
+.serch:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.personal{
+    color: rgba(0,0,0,.54);
+}
+
+.personal:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.yakguwan{
+    color: rgba(0,0,0,.54);
+}
+
+.yakguwan:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.setting{
+    color: rgba(0,0,0,.54);
+}
+
+.setting:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.glass{
+    position: absolute;
+    top: 260px;
+    right: 815px;
+}
+
+.keybord{
+    position: absolute;
+    top: 257px;
+    right: 240px;
+}
+
+.keybord:hover{
+    cursor: pointer;
+}
